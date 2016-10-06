@@ -1,0 +1,1 @@
+Use echo > filename to create a new file in your bash console
