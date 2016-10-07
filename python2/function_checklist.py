@@ -1,4 +1,6 @@
-print "Let's go through the steps of creating a function.\nAnswer '1' for yes or '0' for no"
+#python 2
+
+print "Let's go through the steps of creating a function.\nAnswer 'Y' for yes or 'N' for no"
 print "Defining your function:"
 
 a = raw_input("Did you start your function definition with def?")
@@ -23,4 +25,4 @@ for check in checklist:
     if check is 'Y':
         print "Hooray! Your function checklist is complete."
     else:
-        print "Your functions checklist is incomplete. Please go through and complete: %r" % i
+        print "Your functions checklist is incomplete. Please go through and complete: %r" % check
